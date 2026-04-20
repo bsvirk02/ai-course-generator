@@ -1,17 +1,30 @@
-Welcome to your repo for COM2027, Group 34!
-=====================================================
+# AI Course Generator
 
-Getting started
----------------
+A full-stack AI-powered platform that automatically generates structured course content, built as a group software engineering project at the University of Surrey.
 
-Before you get started, you should update your com2027.yml file with your team members and project details. This will appear at [your static site](https://csee.pages.surrey.ac.uk/com2027/2024-25/Group34).
+## Tech Stack
 
-You have two branches created for you, `trunk` and `release`. The final commit on `release` will be marked.
+- **Backend:** Python, Flask
+- **Frontend:** React, Tailwind CSS
+- **AI Integration:** Groq API, OpenAI API
+- **Infrastructure:** Docker, Docker Compose
+- **CI/CD:** GitLab CI pipeline
 
-Commits must be merged into `release` using a merge request, which requires two approvals. Force-pushing is disabled for both branches, as this can destroy your work. Only `trunk` can be merged into `release`.
+## Features
 
-You may develop directly on `trunk`, although it is recommended that you branch from `trunk` and submit merge requests (or merge directly onto the branch). How you use `trunk` is up to your team.
+- AI-powered automatic course content generation
+- Structured course and quiz creation using large language models
+- Full-stack architecture with REST API backend
+- Containerised deployment using Docker
+- Automated CI/CD pipeline for testing and deployment
+- User authentication and progress tracking
 
-Reponse by Noah
----------------
-The YAML instructions are partly satisfied; they are low-priority.
+## Project Structure
+
+- `Backend/` — Python/Flask REST API with AI integration
+- `Frontend/` — React application with Tailwind CSS
+- `docker-compose.yml` — Container orchestration
+
+## About
+
+Built as a group software engineering project at the University of Surrey, following agile methodology with 92 commits across 20 branches. The project applied real-world software engineering practices including CI/CD, containerisation, and AI API integration.
