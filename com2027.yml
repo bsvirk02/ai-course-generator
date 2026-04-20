@@ -1,0 +1,19 @@
+project_name: A gamified approach to workplace diversity and inclusion
+
+project_description: |
+This project aims to find an innovative way to improve current DEI training through gamification.
+Our application is powered by AI to create courses and quizzes to help users learn more about DEI topics.
+This application includes features such as SuperMemo incorporating space repetition; Groq-AI for content creation; Auth0 for secure authentication and relevant news articles provided by NewsAPI. 
+The sustainable goals of good Health & Well-being, Reducing Inequalities, and promoting Peace & Justice in institutions were achieved.
+Our app promotes diversity and educates the workforce on a variety of topics. 
+Overall we were able to foster empathy, curiosity, and understanding around equality and inclusion in the workplace.
+
+group_members:
+  - Mohammad Abbas
+  - Olamide Olufayo
+  - Noah Tarr
+  - Bhavdeep Virk
+  - Yash Vedak
+  - Awaale Yussuf
+
+group_image: team.jpg

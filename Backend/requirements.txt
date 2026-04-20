@@ -1,0 +1,11 @@
+Django>=5.1,<6.0
+djangorestframework-simplejwt
+django-cors-headers
+python-dotenv
+requests
+python-jose
+Pillow
+channels
+daphne
+# @emailjs/browser
+groq

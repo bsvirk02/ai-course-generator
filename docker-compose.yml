@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+      args:
+        DEBUG: "false"
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+      args:
+        DEBUG: "false"
+    ports:
+      - "5173:5173"
+      # The frontend must eventually be on 5000.
+    depends_on:
+      - backend

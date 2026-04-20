@@ -1,0 +1,17 @@
+pdd/*.aux
+pdd/*.log
+pdd/*.out
+pdd/*.pdf
+pdd/*.toc
+pdd/*.bbl
+pdd/*.bcf
+pdd/*.run.xml
+pdd/refs.bib
+pdd/*.blg
+
+Backend/*.sqlite3
+Backend/quiz/__pycache__
+Backend/quiz/migrations
+Backend/quiz_manager/__pycache__
+*.env
+.env*
